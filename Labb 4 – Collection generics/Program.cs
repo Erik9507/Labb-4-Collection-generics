@@ -23,8 +23,7 @@ namespace Labb_4___Collection_generics
             myStack.Push(E4);
             myStack.Push(E5);
 
-            
-
+           
             foreach ( Employee employess in myStack)
             {
                 Console.WriteLine("Items left in stack: " + myStack.Count);
