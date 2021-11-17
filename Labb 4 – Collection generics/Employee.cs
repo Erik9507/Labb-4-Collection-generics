@@ -22,6 +22,15 @@ namespace Labb_4___Collection_generics
             _Gender = Gender;
             _YearlySalary = YearlySalary;
         }
-        
+
+        public void PrintInfo()
+        {
+            Console.WriteLine(_ID + " - " + _FirstName + " - " + _LastName + " - " + _Gender + " - " + _YearlySalary);
+        }
+
+        public override string ToString()
+        {
+            return _ID + " - " + _FirstName + " - " + _LastName + " - " + _Gender + " - " + _YearlySalary;
+        }
     }
 }
